@@ -1,5 +1,9 @@
-default:
-  namespace: App
-  psr4_prefix: App
-  src_path: app
-  spec_prefix: spec
+suites:
+
+  default:
+    namespace: App
+    psr4_prefix: App
+    src_path: app
+    spec_prefix: spec
+
+formatter.name: pretty
